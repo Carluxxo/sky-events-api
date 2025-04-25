@@ -164,7 +164,7 @@ if __name__ == '__main__':
     # Configuração do servidor
     app.run(
         host='0.0.0.0',
-        port=80,
+        port=8080,
         threaded=True,
         use_reloader=False
     )
