@@ -2,7 +2,7 @@ services:
   astronomy-api:
     build: .
     ports:
-      - "5000:5000"
+      - "80:80"
     environment:
       - FLASK_APP=app.py
       - FLASK_ENV=production
